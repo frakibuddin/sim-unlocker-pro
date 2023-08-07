@@ -34,3 +34,8 @@
     padding: 2rem 1rem;
   }
 }
+@media (max-width: 500px) {
+  html {
+    font-size: 59%;
+  }
+}
