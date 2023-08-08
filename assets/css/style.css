@@ -97,8 +97,9 @@ body.dark-mode {
   opacity: 0.8;
 }
 .devider hr {
-  border-color: var(--border-color);
+  border-color: var(--border-color) !important;
 }
+
 html {
   font-size: 62.5%;
 }
@@ -180,6 +181,12 @@ section {
   font-size: 3rem;
   font-weight: 700;
   color: var(--section-heading-color);
+}
+.scle-hover {
+  transition: 0.3s !important;
+}
+.scle-hover:hover {
+  transform: scale(1.03) !important;
 }
 
 /* Global CSS */
@@ -360,6 +367,20 @@ body.dark-mode .navbar-expand-lg .navbar-nav .nav-link.active,
 .mode-btns {
   cursor: pointer;
 }
+.navbar-brand {
+  background: url(../img/logo.png);
+  background-size: contain;
+  background-position: left center;
+  height: 6rem;
+  width: 20rem;
+  background-repeat: no-repeat;
+}
+body.dark-mode .navbar-brand {
+  background: url(../img/logo-white.png);
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
 
 /* Hero section style */
 .hero-section {
@@ -479,7 +500,7 @@ body.dark-mode .services-section {
 .models-section {
   background: var(--bg-section-light);
   border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
+  /* border-bottom: 1px solid var(--border-color); */
 }
 .model-box {
   text-align: center;
