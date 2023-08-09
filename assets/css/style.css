@@ -396,20 +396,6 @@ body.dark-mode .navbar-expand-lg .navbar-nav .nav-link.active,
 .mode-btns {
   cursor: pointer;
 }
-.navbar-brand {
-  background: url(../img/logo.png);
-  background-size: contain;
-  background-position: left center;
-  height: 6rem;
-  width: 20rem;
-  background-repeat: no-repeat;
-}
-body.dark-mode .navbar-brand {
-  background: url(../img/logo-white.png);
-  background-size: contain;
-  background-position: left center;
-  background-repeat: no-repeat;
-}
 
 /* Hero section style */
 .hero-section {
