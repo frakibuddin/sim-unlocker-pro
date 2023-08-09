@@ -83,7 +83,7 @@ body.dark-mode {
   color: var(--blue-color);
 }
 .text-color {
-  color: var(--black-light);
+  color: var(--black-light) !important;
   font-weight: 500;
 }
 .txt-dark {
@@ -200,165 +200,6 @@ section {
   -webkit-transform: scale(1.03) !important;
   -ms-transform: scale(1.03) !important;
   transform: scale(1.03) !important;
-}
-
-/* Global CSS */
-/* onscroll animation */
-/**Styling scrollable elements*/
-
-.js-scroll {
-  opacity: 0;
-  -webkit-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
-}
-
-.js-scroll.scrolled {
-  opacity: 1;
-}
-
-.scrolled.fade-in {
-  -webkit-animation: fade-in 0.5s ease-in-out both;
-  animation: fade-in 0.5s ease-in-out both;
-}
-
-.scrolled.fade-in-bottom {
-  -webkit-animation: fade-in-bottom 0.5s ease-in-out both;
-  animation: fade-in-bottom 0.5s ease-in-out both;
-}
-
-.scrolled.slide-left {
-  -webkit-animation: slide-in-left 0.3s ease-in-out both;
-  animation: slide-in-left 0.3s ease-in-out both;
-}
-
-.scrolled.slide-right {
-  -webkit-animation: slide-in-right 0.5s ease-in-out both;
-  animation: slide-in-right 0.5s ease-in-out both;
-}
-.scrolled.pop-up {
-  -webkit-animation: pop-up 0.5s ease-in-out both;
-  animation: pop-up 0.5s ease-in-out both;
-}
-@-webkit-keyframes pop-up {
-  0% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-@keyframes pop-up {
-  0% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes slide-in-left {
-  0% {
-    -webkit-transform: translateX(-100px) scale(0);
-    transform: translateX(-100px) scale(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) scale(1);
-    transform: translateX(0) scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes slide-in-left {
-  0% {
-    -webkit-transform: translateX(-100px) scale(0);
-    transform: translateX(-100px) scale(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) scale(1);
-    transform: translateX(0) scale(1);
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes slide-in-right {
-  0% {
-    -webkit-transform: translateX(100px) scale(0);
-    transform: translateX(100px) scale(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) scale(1);
-    transform: translateX(0) scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes slide-in-right {
-  0% {
-    -webkit-transform: translateX(100px) scale(0);
-    transform: translateX(100px) scale(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0) scale(1);
-    transform: translateX(0) scale(1);
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fade-in-bottom {
-  0% {
-    -webkit-transform: translateY(100px) scale(0);
-    transform: translateY(100px) scale(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0) scale(1);
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes fade-in-bottom {
-  0% {
-    -webkit-transform: translateY(100px) scale(0);
-    transform: translateY(100px) scale(0);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0) scale(1);
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 /* header */
@@ -695,6 +536,8 @@ body.dark-mode .form-control {
   -o-transition: 0.3s;
   transition: 0.3s;
   margin: 1.2rem 0.5rem;
+  position: relative;
+  z-index: 9;
 }
 .search-field {
   background: var(--bg-reseller-box) !important;
@@ -745,4 +588,98 @@ body.dark-mode .form-control {
   -webkit-transform: scale(1.02) !important;
   -ms-transform: scale(1.02) !important;
   transform: scale(1.02) !important;
+}
+
+/*=============== dashboard =============== */
+.dashboard-section {
+  overflow: hidden;
+}
+.dashboard-section .reseller-box {
+  min-height: auto;
+  position: relative;
+  z-index: 9;
+  overflow: hidden;
+}
+.dashboard .reseller-box {
+  -webkit-box-shadow: var(--tw-shadow);
+  box-shadow: var(--tw-shadow);
+}
+.dashboard .blur-shadow3 {
+  top: -5rem;
+}
+.dashboard .reseller-box:hover {
+  -webkit-transform: inherit;
+  -ms-transform: inherit;
+  transform: inherit;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.158);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.158);
+}
+.table {
+  --bs-table-color: var(--black-light);
+  --bs-table-bg: rgba(255, 0, 0, 0);
+  border-radius: 1rem;
+  padding: 1rem !important;
+}
+.table-border {
+  border-color: var(--border-color);
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  padding: 1.5rem 0.8rem !important;
+}
+/* data table */
+.dataTables_length,
+div.dataTables_wrapper div.dataTables_info {
+  width: auto;
+  color: var(--text-bl);
+  float: left;
+}
+.dataTables_length select {
+  background: var(--bg-color);
+  color: var(--text-bl);
+  padding: 0.5rem 0.2rem;
+  border: 1px solid var(--border-color);
+  outline: 0;
+  border-radius: 0.5rem;
+}
+#model-list_filter {
+  color: var(--text-bl);
+}
+#model-list_filter input {
+  outline: 0;
+  background: var(--bg-reseller-box);
+  border: 1px solid var(--border-color);
+  padding: 0.5rem 0.2rem;
+  color: var(--text-ld);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 0.5rem;
+}
+#model-list_filter input:focus,
+.dataTables_length select:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.dataTables_paginate a {
+  background: var(--bg-reseller-box);
+  text-decoration: none;
+  color: var(--text-ld);
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--border-color);
+}
+.dataTables_paginate .current {
+  padding: 0.5rem 1rem;
+  border-radius: 0;
+  font-weight: 600;
+}
+div.dataTables_wrapper div.dataTables_info {
+  margin-top: -1.5rem !important;
+}
+#model-list {
+  vertical-align: middle;
 }

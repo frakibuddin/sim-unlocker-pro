@@ -36,6 +36,12 @@
     gap: 2rem;
     padding: 2rem 1rem;
   }
+
+  /* dashboard */
+  .dataTables_length {
+    float: inherit;
+    margin: 1rem auto;
+  }
 }
 @media (max-width: 500px) {
   html {
