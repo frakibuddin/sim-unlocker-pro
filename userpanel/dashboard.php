@@ -26,6 +26,19 @@
                 <div class="reseller-box">
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="section-heading">
+                            <h2><span class="text-blue">80</span></h2>
+                            <h3 class="txt-dark fs-2 mb-4 gsearch">Balance</h3>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-money-bill-1 text-color display-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="reseller-box">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="section-heading">
                             <h2><span class="text-blue">23</span></h2>
                             <h3 class="txt-dark fs-2 mb-4 gsearch">Tickets</h3>
                         </div>
@@ -44,6 +57,49 @@
                         </div>
                         <div>
                             <i class="fa-solid fa-download text-color display-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="text-color fw-bold fs-1 mt-5">Support <span class="text-blue">Count</span></h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="reseller-box">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="section-heading">
+                            <h2><span class="text-blue">355</span></h2>
+                            <h3 class="txt-dark fs-2 mb-4 gsearch">Support Brand</h3>
+                        </div>
+                        <div>
+                            <i class=""></i>
+                            <i class="fa-solid fa-copyright text-color display-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="reseller-box">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="section-heading">
+                            <h2><span class="text-blue">80</span></h2>
+                            <h3 class="txt-dark fs-2 mb-4 gsearch">Support Model</h3>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-buromobelexperte text-color display-1"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="reseller-box">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="section-heading">
+                            <h2><span class="text-blue">56</span></h2>
+                            <h3 class="txt-dark fs-2 mb-4 gsearch">Support File</h3>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-file text-color display-1"></i>
                         </div>
                     </div>
                 </div>

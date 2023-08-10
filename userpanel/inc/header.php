@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
-<body class="dark-mode">
+<body class="light-mode">
     <!--============ start header ============-->
     <header>
         <div class="container">
@@ -45,7 +45,9 @@
                             <li class="nav-item">
                                 <a class="nav-link " href="tickets.php">Ticket</a>
                             </li>
-
+                            <li class="nav-item">
+                                <a class="nav-link " href="buy-credits.php">Buy Credit</a>
+                            </li>
                         </ul>
                         <form class="d-flex gap-4 align-items-center mt-3 mt-lg-0">
                             <div class="mode-btns d-none d-lg-block">

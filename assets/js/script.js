@@ -49,7 +49,7 @@ let footerLogo = document.querySelector(".footer-logo");
 let sun = `<i class="fa-regular fa-sun fs-2 text-light"></i>`;
 let moon = `<i class="fa-regular fa-moon fs-2 text-color"></i>`;
 
-let mode = "dark-mode";
+let mode;
 
 //header logo
 let lightMode_src = headerLogo.getAttribute("data-lightImg");
@@ -89,7 +89,7 @@ for (let i = 0; i < modeBtn.length; i++) {
 }
 mode = localStorage.getItem("mode");
 if (mode == null) {
-  mode = "dark-mode";
+  mode = "light-mode";
 }
 body.setAttribute("class", mode);
 

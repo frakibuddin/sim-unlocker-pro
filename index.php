@@ -214,56 +214,25 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6 js-scroll fade-in-bottom">
                 <div class="model-box">
-                    <i class="fa-regular fa-star icon"></i>
-                    <h3 class="txt-dark fw-bold fs-2 mb-4">Model one</h3>
-                    <p class="text-dark-light desc">Lorem ipsum dolor sit amet consectetur empore
-                        nihil beatae facilis dolore error ipsum esse ab praesentium sunt
-                        fuga repellat, eaque excepturi iste perferendis neque optio!</p>
+                    <!-- <i class="fa-solid fa-bandage "></i> -->
+                    <h1 class="text-blue display-3 fw-bold icon">20</h1>
+                    <h3 class="txt-dark fw-bold fs-2 mb-4 ">Support Brand</h3>
+
+                    <p class="text-dark-light desc">At Support Brand, we understand the power of innovation and the importance of enhancing your daily life. That's why we're thrilled to introduce our latest breakthrough: the SpectraVista X, designed to take your visual experience to a whole new level.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 js-scroll fade-in-bottom">
                 <div class="model-box">
-                    <i class="fa-regular fa-star icon"></i>
-                    <h3 class="txt-dark fw-bold fs-2 mb-4">Model one</h3>
-                    <p class="text-dark-light desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. facilis
-                        dolore eveniet voluptates delectus error ipsum esse ab praesentium sunt
-                        fuga repellat, eaque excepturi eque optio!</p>
+                    <h1 class="text-blue display-3 fw-bold icon">50</h1>
+                    <h3 class="txt-dark fw-bold fs-2 mb-4">Support Model</h3>
+                    <p class="text-dark-light desc">At Support Model, we're committed to helping you achieve success through unparalleled support and expertise. Our mission is to be the backbone of your journey, providing the knowledge, resources, and guidance you need to thrive in today's dynamic world.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 js-scroll fade-in-bottom">
                 <div class="model-box">
-                    <i class="fa-regular fa-star icon"></i>
-                    <h3 class="txt-dark fw-bold fs-2 mb-4">Model one</h3>
-                    <p class="text-dark-light desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        nihil beatae facilis dolore ipsum esse ab praesentium sunt
-                        fuga repellat, eaque excepturi iste perferendis neque optio!</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 js-scroll fade-in-bottom">
-                <div class="model-box">
-                    <i class="fa-regular fa-star icon dark-opacity-100 "></i>
-                    <h3 class="txt-dark fw-bold fs-2 mb-4">Model one</h3>
-                    <p class="text-dark-light desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        nihil beatae facilis dolore eveniet voluptates delectus error ipsum esse ab praesentium sunt
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 js-scroll fade-in-bottom">
-                <div class="model-box">
-                    <i class="fa-regular fa-star icon dark-opacity-100"></i>
-                    <h3 class="txt-dark fw-bold fs-2 mb-4">Model one</h3>
-                    <p class="text-dark-light desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        nihil beatae facilis dolore eveniet voluptates delectus error ipsum esse ab praesentium sunt
-                        fuga repellat!</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6 js-scroll fade-in-bottom">
-                <div class="model-box">
-                    <i class="fa-regular fa-star icon dark-opacity-100"></i>
-                    <h3 class="txt-dark fw-bold fs-2 mb-4">Model one</h3>
-                    <p class="text-dark-light desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        nihil beatae facilis dolore eveniet voluptates delectus error ipsum esse facilis dolore
-                        eveniet v</p>
+                    <h1 class="text-blue display-3 fw-bold icon">45</h1>
+                    <h3 class="txt-dark fw-bold fs-2 mb-4">Support File</h3>
+                    <p class="text-dark-light desc">In today's digital age, the safety and accessibility of your files are paramount. At Support File, we understand the value of your data, and we're here to provide a comprehensive solution that combines security, convenience, and peace of mind.</p>
                 </div>
             </div>
         </div>

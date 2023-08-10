@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
-<body class="dark-mode">
+<body class="light-mode">
     <!--============ start header ============-->
     <header>
         <div class="container">

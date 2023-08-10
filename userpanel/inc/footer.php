@@ -30,7 +30,8 @@
 <script>
     new DataTable('.download-list');
     new DataTable('.model-list');
-    new DataTable('.ticket-list ');
+    new DataTable('.ticket-list');
+    new DataTable('.cradit-list');
 </script>
 </body>
 

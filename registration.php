@@ -70,6 +70,16 @@
                     </div>
                     <div class="row mt-4">
                         <div class="col-md-12">
+                            <label for="" class="text-color d-flex align-items-start gap-2">Country
+                                <span class="text-danger fs-1">*</span></label>
+                            <div class="input-group">
+                                <span class="input-group-text search-field"><i class="fa-solid fa-globe"></i></span>
+                                <input type="text" class="form-control search-field" placeholder="Pakistan">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-12">
                             <label for="" class="text-color d-flex align-items-start gap-2">Password
                                 <span class="text-danger fs-1">*</span></label>
                             <div class="input-group">
