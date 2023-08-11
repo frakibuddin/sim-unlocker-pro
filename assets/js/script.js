@@ -38,6 +38,19 @@ const handleScrollAnimation = () => {
 
 window.onscroll = function () {
   handleScrollAnimation();
+  chat_box.classList.remove("slick-amim");
+};
+
+// whatapp chat function
+const w_chat_btn = document.querySelector(".live-chat-whatapp");
+const chat_box = document.querySelector(".chat-box");
+
+// telegrame chat function
+const t_chat_btn = document.querySelector(".live-chat-whatapp");
+const t_chat_box = document.querySelector(".t-chat-box");
+
+w_chat_btn.onclick = () => {
+  chat_box.classList.toggle("slick-amim");
 };
 
 // dark and light mode
@@ -89,7 +102,7 @@ for (let i = 0; i < modeBtn.length; i++) {
 }
 mode = localStorage.getItem("mode");
 if (mode == null) {
-  mode = "light-mode";
+  mode = "dark-mode";
 }
 body.setAttribute("class", mode);
 
@@ -104,3 +117,22 @@ for (let i = 0; i < modeBtn.length; i++) {
     footerLogo.src = f_lightMode_src;
   }
 }
+
+// counter
+
+$(".counter").each(function () {
+  $(this)
+    .prop("Counter", 0)
+    .animate(
+      {
+        Counter: $(this).text(),
+      },
+      {
+        duration: 4000,
+        easing: "swing",
+        step: function (now) {
+          $(this).text(Math.ceil(now));
+        },
+      }
+    );
+});

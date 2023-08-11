@@ -42,7 +42,7 @@ for (let i = 0; i < modeBtn.length; i++) {
 }
 mode = localStorage.getItem("mode");
 if (mode == null) {
-  mode = "light-mode";
+  mode = "dark-mode";
 }
 body.setAttribute("class", mode);
 
@@ -56,3 +56,12 @@ for (let i = 0; i < modeBtn.length; i++) {
     headerLogo.src = lightMode_src;
   }
 }
+
+// autometic remove alert message
+window.setTimeout(function () {
+  $(".alert")
+    .slideUp(500, 0)
+    .slideUp(500, function () {
+      $(this).slideUp();
+    });
+}, 4000);

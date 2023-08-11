@@ -669,3 +669,48 @@ div.dataTables_wrapper div.dataTables_info {
 .valign-middle {
   vertical-align: middle;
 }
+
+/* anim */
+.slick-amim {
+  animation: slickAnim 1s ease both;
+}
+@keyframes slickAnim {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 3e3px, 0);
+  }
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.alert {
+  position: fixed;
+  z-index: 999;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99;
+  animation: alertAnim 0.3s linear forwards;
+}
+@keyframes alertAnim {
+  0% {
+    top: -2rem;
+  }
+  100% {
+    top: 0.5rem;
+  }
+}

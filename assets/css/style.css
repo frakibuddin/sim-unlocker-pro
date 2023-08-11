@@ -572,7 +572,7 @@ body.dark-mode .services-section {
   text-align: center;
   padding: 3rem;
   margin: 0.5rem;
-  min-height: 30rem;
+  min-height: 22rem;
   border-radius: 1rem;
   border: 1px solid var(--border-color);
   -webkit-transition: 0.3s;
@@ -585,13 +585,9 @@ body.dark-mode .services-section {
   background: var(--bg-mode-icon);
   padding: 1.5rem;
   border-radius: 50%;
-  width: 7rem;
-  height: 7rem;
-  margin: auto;
+  width: 3rem;
+  height: 3rem;
   margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .model-box:hover {
   -webkit-transform: scale(1.03);
@@ -735,4 +731,31 @@ body.dark-mode .form-control {
   -webkit-transform: scale(1.02) !important;
   -ms-transform: scale(1.02) !important;
   transform: scale(1.02) !important;
+}
+/* anim */
+.slick-amim {
+  animation: slickAnim 1s ease both;
+}
+@keyframes slickAnim {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 3e3px, 0);
+  }
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+.cursor-pointer {
+  cursor: pointer;
 }

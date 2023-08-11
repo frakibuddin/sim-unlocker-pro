@@ -211,28 +211,29 @@
             <h3 class="text-color subtitle mt-3">
                 We Supported different Models.</h3>
         </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6 js-scroll fade-in-bottom">
-                <div class="model-box">
-                    <!-- <i class="fa-solid fa-bandage "></i> -->
-                    <h1 class="text-blue display-3 fw-bold icon">20</h1>
-                    <h3 class="txt-dark fw-bold fs-2 mb-4 ">Support Brand</h3>
 
-                    <p class="text-dark-light desc">At Support Brand, we understand the power of innovation and the importance of enhancing your daily life. That's why we're thrilled to introduce our latest breakthrough: the SpectraVista X, designed to take your visual experience to a whole new level.</p>
+
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-6 js-scroll fade-in-bottom">
+                <div class="model-box">
+                    <i class="fa-solid fa-bandage icon"></i>
+                    <h3 class="txt-dark fw-bold fs-2 mb-4">Support Brand</h3>
+                    <h2 class="display-2 fw-bold text-blue counter">490</h2>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 js-scroll fade-in-bottom">
                 <div class="model-box">
-                    <h1 class="text-blue display-3 fw-bold icon">50</h1>
+                    <i class="fa-brands fa-buromobelexperte icon"></i>
                     <h3 class="txt-dark fw-bold fs-2 mb-4">Support Model</h3>
-                    <p class="text-dark-light desc">At Support Model, we're committed to helping you achieve success through unparalleled support and expertise. Our mission is to be the backbone of your journey, providing the knowledge, resources, and guidance you need to thrive in today's dynamic world.</p>
+                    <h2 class="display-2 fw-bold text-blue counter">220</h2>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 js-scroll fade-in-bottom">
                 <div class="model-box">
-                    <h1 class="text-blue display-3 fw-bold icon">45</h1>
+                    <i class="fa-regular fa-file icon"></i>
                     <h3 class="txt-dark fw-bold fs-2 mb-4">Support File</h3>
-                    <p class="text-dark-light desc">In today's digital age, the safety and accessibility of your files are paramount. At Support File, we understand the value of your data, and we're here to provide a comprehensive solution that combines security, convenience, and peace of mind.</p>
+                    <h2 class="display-2 fw-bold text-blue counter">120</h2>
                 </div>
             </div>
         </div>

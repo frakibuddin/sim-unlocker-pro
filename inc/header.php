@@ -11,8 +11,59 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
-<body class="light-mode">
+<body class="dark-mode">
     <!--============ start header ============-->
+
+    <!-- telegrame chat you should must one chat open telegrame or whatapp -->
+    <div class="live-chat-inner position-relative ">
+        <div class="live-chat-whatapp d-flex align-items-center justify-content-center rounded-circle bg-primary position-fixed z-3 cursor-pointer " style=" width: 6rem;
+  height: 6rem;bottom: 3rem;
+  right: 3rem;">
+            <img src="assets/img/telegrame.png" alt="tetegrame" class="w-100">
+        </div>
+        <div class="chat-box card border-color live-chat-body position-fixed z-2" style="bottom: 10rem;right: 3rem; width:30rem;opacity: 0;">
+            <div class="card-header bg-primary py-4">
+                <h2 class="text-light fw-bold">Whatapp Supporte</h2>
+            </div>
+            <a href="#" class="card-body d-flex align-items-center gap-4 text-decoration-none">
+                <img src="assets/img/pic.jpg" class="w-25 rounded-circle" alt="">
+                <div>
+                    <p class="fs-4 text-muted">Support</p>
+                    <h3>Telegrame</h3>
+                    <p class="fs-5 text-muted position-relative ">online
+                        <span class="position-absolute top-50 translate-middle p-2 bg-primary border border-light rounded-circle" style="right:1.2rem">
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- whatapp chat icon -->
+    <!-- <div class="live-chat-inner position-relative ">
+        <div class="live-chat-whatapp d-flex align-items-center justify-content-center rounded-circle bg-success position-fixed z-3 cursor-pointer " style=" width: 6rem;
+  height: 6rem;bottom: 3rem;
+  right: 3rem;">
+            <img src="assets/img/whatsapp-light.webp" alt="tetegrame" class="w-50">
+        </div>
+        <div class="chat-box card border-color live-chat-body position-fixed z-2" style="bottom: 10rem;right: 3rem; width:30rem;opacity: 0;">
+            <div class="card-header bg-primary py-4">
+                <h2 class="text-light fw-bold">Whatapp Supporte</h2>
+            </div>
+            <a href="#" class="card-body d-flex align-items-center gap-4 text-decoration-none">
+                <img src="assets/img/pic.jpg" class="w-25 rounded-circle" alt="">
+                <div>
+                    <p class="fs-4 text-muted">Support</p>
+                    <h3>Whatapp</h3>
+                    <p class="fs-5 text-muted position-relative ">online
+                        <span class="position-absolute top-50 translate-middle p-2 bg-primary border border-light rounded-circle" style="right:1.2rem">
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div> -->
+
+
+
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-lg ">

@@ -26,7 +26,7 @@
              <div class="col-md-6 ">
                  <div class="d-flex flex-wrap align-items-center gap-4 footer-bottom">
                      <a class="text-color " href="">About Us</a>
-                     <a class="text-color " href="">Privecy Policy</a>
+                     <a class="text-color " href="privecy-policy.php">Privecy Policy</a>
                      <a class="text-color " href="">Teams and Condition</a>
                  </div>
              </div>
@@ -35,7 +35,6 @@
                  </p>
              </div>
          </div>
-
      </div>
  </footer>
  <!--============ End Footer Section ============-->

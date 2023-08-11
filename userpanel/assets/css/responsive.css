@@ -45,7 +45,10 @@
 }
 @media (max-width: 500px) {
   html {
-    font-size: 59%;
+    font-size: 60%;
+  }
+  .alert {
+    width: 80%;
   }
 }
 @media (max-width: 350px) {

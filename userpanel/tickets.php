@@ -63,6 +63,7 @@
                         <th scope="col">Date</th>
                         <th scope="col">Exp Date</th>
                         <th scope="col">Status</th>
+                        <th scope="col">Detail</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -73,6 +74,7 @@
                         <td>20 jun 2023</td>
                         <td>12 Sep 2023</td>
                         <td>Completed</td>
+                        <td><a href="tickets-details.php" type="button" class="mybtn mybtn-menu dark-btn fw-normal">Detail</a></td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
@@ -81,6 +83,7 @@
                         <td>20 jun 2023</td>
                         <td>12 Sep 2023</td>
                         <td>Completed</td>
+                        <td><a href="tickets-details.php" type="button" class="mybtn mybtn-menu dark-btn fw-normal">Detail</a></td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
@@ -89,6 +92,7 @@
                         <td>20 jun 2023</td>
                         <td>12 Sep 2023</td>
                         <td>Completed</td>
+                        <td><a href="tickets-details.php" type="button" class="mybtn mybtn-menu dark-btn fw-normal">Detail</a></td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
@@ -97,6 +101,7 @@
                         <td>20 jun 2023</td>
                         <td>12 Sep 2023</td>
                         <td>Completed</td>
+                        <td><a href="tickets-details.php" type="button" class="mybtn mybtn-menu dark-btn fw-normal">Detail</a></td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
@@ -105,7 +110,9 @@
                         <td>20 jun 2023</td>
                         <td>12 Sep 2023</td>
                         <td>Completed</td>
+                        <td><a href="tickets-details.php" type="button" class="mybtn mybtn-menu dark-btn fw-normal">Detail</a></td>
                     </tr>
+
                 </tbody>
             </table>
         </div>

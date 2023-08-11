@@ -73,8 +73,13 @@
                             <label for="" class="text-color d-flex align-items-start gap-2">Country
                                 <span class="text-danger fs-1">*</span></label>
                             <div class="input-group">
-                                <span class="input-group-text search-field"><i class="fa-solid fa-globe"></i></span>
-                                <input type="text" class="form-control search-field" placeholder="Pakistan">
+                                <select name="" id="" class="form-control search-field">
+                                    <option value="">Select Country</option>
+                                    <option value="" class="text-dark">Pakistan</option>
+                                    <option value="" class="text-dark">Bangladsah</option>
+                                    <option value="" class="text-dark">India</option>
+                                    <option value="" class="text-dark">USA</option>
+                                </select>
                             </div>
                         </div>
                     </div>
