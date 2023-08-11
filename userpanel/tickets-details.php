@@ -9,45 +9,74 @@
         </div>
 
         <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <div class="reseller-box table-responsive ">
-                    <table id="" class=" table table-border text-start">
-                        <thead>
-                            <tr>
-                                <th scope="col">Name</th>
-                                <th class="fw-normal">SM-49w</th>
-                            </tr>
-                            <tr>
-                                <th scope="col">Number</th>
-                                <th class="fw-normal">9834</th>
-                            </tr>
-                            <tr>
-                                <th scope="col">Date</th>
-                                <th class="fw-normal">12 jun 23</th>
-                            </tr>
-                            <tr>
-                                <th scope="col">Exp. Date</th>
-                                <th class="fw-normal">12 Sep 23</th>
-                            </tr>
-                            <tr>
-                                <th scope="col">Exp. Date</th>
-                                <th class="fw-normal">12 Sep 23</th>
-                            </tr>
-                            <tr>
-                                <th scope="col">Credit</th>
-                                <th class="fw-normal">40</th>
-                            </tr>
-                            <tr>
-                                <th scope="col">Status</th>
-                                <th class="fw-normal">Success</th>
-                            </tr>
-                        </thead>
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="reseller-box">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h2 class="text-blue display-3 fw-bold">Ticket Name</h2>
+                        <p class="text-color"><span class="text-blue">Number: </span>843570</p>
+                    </div>
+                    <hr class="border-color">
+                    <div class="text-start mt-5">
+                        <h2 class="txt-dark display-5 fw-bold">Ticket Details</h2>
+                        <p class="text-color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quae esse maiores perferendis. Dignissimos assumenda explicabo laborum officiis deleniti similique.</p>
+                    </div>
+                    <div class="mt-5 pt-3 d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-ticket text-color fs-1"></i> <span class="text-color"><span class="text-blue">Credit: </span>34</span>
+                        </div>
+                        <div>
 
-                    </table>
+                            <span class="text-color"><span class="text-blue">Date: </span> 12 jun 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reseller-box">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h2 class="text-blue display-3 fw-bold">Ticket Name</h2>
+                        <p class="text-color"><span class="text-blue">Number: </span>843570</p>
+                    </div>
+                    <hr class="border-color">
+                    <div class="text-start mt-5">
+                        <h2 class="txt-dark display-5 fw-bold">Ticket Details</h2>
+                        <p class="text-color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quae esse maiores perferendis. Dignissimos assumenda explicabo laborum officiis deleniti similique.</p>
+                    </div>
+                    <div class="mt-5 pt-3 d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-ticket text-color fs-1"></i> <span class="text-color"><span class="text-blue">Credit: </span>34</span>
+                        </div>
+                        <div>
+
+                            <span class="text-color"><span class="text-blue">Date: </span> 12 jun 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reseller-box">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <h2 class="text-blue display-3 fw-bold">Ticket Name</h2>
+                        <p class="text-color"><span class="text-blue">Number: </span>843570</p>
+                    </div>
+                    <hr class="border-color">
+                    <div class="text-start mt-5">
+                        <div>
+                            <h2 class="txt-dark display-5 fw-bold">Ticket Details</h2>
+                            <p class="text-color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quae esse maiores perferendis. Dignissimos assumenda explicabo laborum officiis deleniti similique.</p>
+                        </div>
+                    </div>
+                    <div class="mt-5 pt-3 d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-ticket text-color fs-1"></i> <span class="text-color"><span class="text-blue">Credit: </span>34</span>
+                        </div>
+                        <div>
+
+                            <span class="text-color"><span class="text-blue">Date: </span> 12 jun 2023</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-1"></div>
         </div>
 
     </div>

@@ -11,6 +11,9 @@
                         credentials</h3>
                 </div>
                 <form action="">
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>Email or Password wrong!
+                    </div>
                     <div class="mb-5">
                         <label for="" class="text-color d-flex align-items-start gap-2">Username
                             <span class="text-danger fs-1">*</span></label>
@@ -34,7 +37,7 @@
                                 Remember me
                             </label>
                         </div>
-                        <a href="" class="text-color">Forget password</a>
+                        <a href="forget-password.php" class="text-color">Forget password</a>
                     </div>
                     <div class="input-group pt-5">
                         <button class="mybtn dark-btn d-flex align-items-center gap-3">

@@ -9,7 +9,11 @@
                     <h2>Registration<span class="text-blue"></span></h2>
                     <h3 class="text-color subtitle mt-3">Don't share your login info with anyone</h3>
                 </div>
-                <form action="">
+                <form action="congratulations.php">
+                    <!-- error -->
+                    <!-- <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>Please fill the require input
+                    </div> -->
                     <div class="row">
                         <div class="col-md-6">
                             <label for="" class="text-color d-flex align-items-start gap-2">First Name

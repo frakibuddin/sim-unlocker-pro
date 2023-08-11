@@ -10,7 +10,7 @@
             <div class="col-md-6 scrolled fade-in">
                 <div class="hero-texts">
                     <i class="fa-solid fa-sim-card py-5 text-blue" style="font-size: 70px;"></i>
-                    <h2 class="text-blue">Lorem ipsum dolor sit amet.</h2>
+                    <h2 class="text-blue">Professional Unlock Tool</h2>
                     <h1 class="hero-heading text-bl my-3">SIM-UNLOCKER <span class="text-blue">PRO</span></h1>
                     <h3 class="text-color mb-5">is a Professional Unlock Tool</h3>
 
