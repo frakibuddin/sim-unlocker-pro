@@ -69,7 +69,7 @@
   left: 10rem;">
             <i class="fa-brands fa-facebook-f display-4 text-light"></i>
         </div>
-        <div class="chat-box card border-color live-chat-body position-fixed z-2" style="bottom: 10rem;left: 10rem; width:30rem;">
+        <div class="chat-box card border-color live-chat-body position-fixed z-2" style="bottom: 10rem;left: 10rem; width:30rem; opacity: 0;">
             <div class="card-header bg-primary py-4">
                 <h2 class="text-light fw-bold">Facebook Support</h2>
             </div>
