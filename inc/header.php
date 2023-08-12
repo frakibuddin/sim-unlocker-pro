@@ -26,7 +26,7 @@
             <div class="card-header bg-primary py-4">
                 <h2 class="text-light fw-bold">Telegrame Supporte</h2>
             </div>
-            <a href="#" class="card-body d-flex align-items-center gap-4 text-decoration-none">
+            <a href="https://t.me/uandumobile" target="_blank" class="card-body d-flex align-items-center gap-4 text-decoration-none">
                 <img src="assets/img/pic.jpg" class="w-25 rounded-circle" alt="">
                 <div>
                     <p class="fs-4 text-muted">Support</p>
@@ -50,7 +50,7 @@
             <div class="card-header bg-success py-4">
                 <h2 class="text-light fw-bold">Whatapp Supporte</h2>
             </div>
-            <a href="#" class="card-body d-flex align-items-center gap-4 text-decoration-none">
+            <a href="https://wa.me/923457917919" target="_blank" class="card-body d-flex align-items-center gap-4 text-decoration-none">
                 <img src="assets/img/pic.jpg" class="w-25 rounded-circle" alt="">
                 <div>
                     <p class="fs-4 text-muted">Support</p>
@@ -69,11 +69,11 @@
   left: 10rem;">
             <i class="fa-brands fa-facebook-f display-4 text-light"></i>
         </div>
-        <div class="chat-box card border-color live-chat-body position-fixed z-2" style="bottom: 10rem;left: 10rem; width:30rem;opacity: 0;">
+        <div class="chat-box card border-color live-chat-body position-fixed z-2" style="bottom: 10rem;left: 10rem; width:30rem;">
             <div class="card-header bg-primary py-4">
                 <h2 class="text-light fw-bold">Facebook Support</h2>
             </div>
-            <a href="#" class="card-body d-flex align-items-center gap-4 text-decoration-none">
+            <a href="https://www.facebook.com/uandumobile/" target="_blank" class="card-body d-flex align-items-center gap-4 text-decoration-none">
                 <img src="assets/img/pic.jpg" class="w-25 rounded-circle" alt="">
                 <div>
                     <p class="fs-4 text-muted">Support</p>

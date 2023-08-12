@@ -733,8 +733,12 @@ body.dark-mode .form-control {
   transform: scale(1.02) !important;
 }
 /* anim */
+.chat-box {
+  visibility: hidden;
+}
 .slick-amim {
   animation: slickAnim 1s ease both;
+  visibility: visible;
 }
 @keyframes slickAnim {
   0% {
@@ -742,7 +746,6 @@ body.dark-mode .form-control {
     transform: translate3d(0, 3e3px, 0);
   }
   60% {
-    opacity: 1;
     transform: translate3d(0, -20px, 0);
   }
   75% {
