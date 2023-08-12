@@ -38,20 +38,24 @@ const handleScrollAnimation = () => {
 
 window.onscroll = function () {
   handleScrollAnimation();
-  chat_box.classList.remove("slick-amim");
+  removeChatboxAmin();
 };
 
 // whatapp chat function
-const w_chat_btn = document.querySelector(".live-chat-whatapp");
-const chat_box = document.querySelector(".chat-box");
+const chat_btn = document.querySelectorAll(".live-chat");
+const chat_box = document.querySelectorAll(".chat-box");
 
-// telegrame chat function
-const t_chat_btn = document.querySelector(".live-chat-whatapp");
-const t_chat_box = document.querySelector(".t-chat-box");
+for (let i = 0; i < chat_btn.length; i++) {
+  chat_btn[i].onclick = () => {
+    chat_box[i].classList.toggle("slick-amim");
+  };
+}
 
-w_chat_btn.onclick = () => {
-  chat_box.classList.toggle("slick-amim");
-};
+function removeChatboxAmin() {
+  for (let i = 0; i < chat_box.length; i++) {
+    chat_box[i].classList.remove("slick-amim");
+  }
+}
 
 // dark and light mode
 let body = document.body;
