@@ -40,7 +40,7 @@
     </div>
 
     <!-- whatapp chat icon -->
-    <div class="live-chat-inner position-relative ">
+    <!-- <div class="live-chat-inner position-relative ">
         <div class="live-chat live-chat-whatapp d-flex align-items-center justify-content-center rounded-circle bg-success position-fixed z-3 cursor-pointer " style=" width: 6rem;
   height: 6rem;bottom: 3rem;
   left: 3rem;">
@@ -61,9 +61,9 @@
                 </div>
             </a>
         </div>
-    </div>
+    </div> -->
     <!-- facebook -->
-    <div class="live-chat-inner position-relative ">
+    <!-- <div class="live-chat-inner position-relative ">
         <div class="live-chat live-chat-whatapp d-flex align-items-center justify-content-center rounded-circle  position-fixed z-3 cursor-pointer bg-primary" style=" width: 6rem;
   height: 6rem;bottom: 3rem;
   left: 10rem;">
@@ -84,7 +84,7 @@
                 </div>
             </a>
         </div>
-    </div>
+    </div> -->
 
 
 
