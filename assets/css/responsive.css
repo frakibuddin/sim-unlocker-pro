@@ -41,6 +41,9 @@
   html {
     font-size: 59%;
   }
+  .otp-inputs input {
+    height: 5rem;
+  }
 }
 @media (max-width: 350px) {
   .navbar-brand {

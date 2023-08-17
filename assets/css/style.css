@@ -762,3 +762,8 @@ body.dark-mode .form-control {
 .cursor-pointer {
   cursor: pointer;
 }
+/* otp */
+.otp-inputs input {
+  width: 50%;
+  height: 6rem;
+}

@@ -9,7 +9,7 @@
                     <h2>Registration<span class="text-blue"></span></h2>
                     <h3 class="text-color subtitle mt-3">Don't share your login info with anyone</h3>
                 </div>
-                <form action="congratulations.php">
+                <form action="otp-varification.php">
                     <!-- error -->
                     <!-- <div class="alert alert-warning alert-dismissible fade show" role="alert">
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>Please fill the require input
