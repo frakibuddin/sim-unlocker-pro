@@ -1,7 +1,5 @@
 <?php include('inc/header.php') ?>
 
-
-
 <!--============ Start Login Section ============-->
 <section class="login-section">
     <div class="container">
@@ -40,7 +38,6 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function(event) {
-
         function OTPInput() {
             const inputs = document.querySelectorAll('#otp > *[id]');
             for (let i = 0; i < inputs.length; i++) {
@@ -65,7 +62,5 @@
             }
         }
         OTPInput();
-
-
     });
 </script>

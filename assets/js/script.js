@@ -140,3 +140,72 @@ $(".counter").each(function () {
       }
     );
 });
+
+try {
+  // captcha
+  // Selecting necessary DOM elements
+  const captchaTextBox = document.querySelector(".captch_box");
+  const refreshButton = document.querySelector(".refresh_button");
+  const captchaInputBox = document.querySelector(".captch_input");
+  const message = document.querySelector(".message");
+  const submitButton = document.querySelector(".login-btn");
+
+  // Variable to store generated captcha
+  let captchaText = null;
+
+  // Function to generate captcha
+  const generateCaptcha = () => {
+    const randomString = Math.random().toString(36).substring(2, 7);
+    const randomStringArray = randomString.split("");
+    const changeString = randomStringArray.map((char) =>
+      Math.random() > 0.5 ? char.toUpperCase() : char
+    );
+    captchaText = changeString.join("   ");
+    captchaTextBox.value = captchaText;
+  };
+
+  const refreshBtnClick = () => {
+    generateCaptcha();
+    captchaInputBox.value = "";
+    captchaKeyUpValidate();
+  };
+
+  const captchaKeyUpValidate = () => {
+    //Toggle submit button disable class based on captcha input field.
+    submitButton.classList.toggle("disabled", !captchaInputBox.value);
+
+    //if (!captchaInputBox.value) message.classList.remove("active");
+  };
+
+  // Function to validate the entered captcha
+  const submitBtnClick = (e) => {
+    e.preventDefault();
+    captchaText = captchaText
+      .split("")
+      .filter((char) => char !== " ")
+      .join("");
+    message.classList.add("show");
+    // Check if the entered captcha text is correct or not
+    if (captchaInputBox.value !== "") {
+      if (captchaInputBox.value === captchaText) {
+        message.innerText = "Entered captcha  correct";
+        //document.querySelector("#login-form").submit();
+      } else {
+        message.innerText = "Entered captcha is not correct";
+      }
+    } else {
+      message.innerText = "Please fill the captcha";
+    }
+  };
+
+  // Add event listeners for the refresh button, captchaInputBox, submit button
+  refreshButton.addEventListener("click", refreshBtnClick);
+  captchaInputBox.addEventListener("keyup", captchaKeyUpValidate);
+  submitButton.addEventListener("click", submitBtnClick);
+
+  // Generate a captcha when the page loads
+  generateCaptcha();
+} catch (error) {
+  console.log(error);
+  console.warn("error in captcha");
+}

@@ -767,3 +767,10 @@ body.dark-mode .form-control {
   width: 50%;
   height: 6rem;
 }
+.captch_box {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
