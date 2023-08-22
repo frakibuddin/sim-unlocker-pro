@@ -3,13 +3,14 @@
 <!--============ Start Login Section ============-->
 <section class="login-section">
     <div class="container">
-        <div class="row align-items-end">
+        <div class="section-heading mb-5">
+            <h2>Log <span class="text-blue">in</span></h2>
+            <h3 class="text-color subtitle mt-3"> To access your account, please provide your login
+                credentials</h3>
+        </div>
+        <div class="row align-items-center">
             <div class="col-lg-6 col-md-12">
-                <div class="section-heading text-center mb-5 pb-5">
-                    <h2>Log <span class="text-blue">in</span></h2>
-                    <h3 class="text-color subtitle mt-3"> To access your account, please provide your login
-                        credentials</h3>
-                </div>
+
                 <form action="">
                     <div class="alert alert-warning alert-dismissible fade  message" role="alert">
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
